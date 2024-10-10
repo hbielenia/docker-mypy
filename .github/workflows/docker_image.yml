@@ -21,7 +21,7 @@ on:
       - reopened
     paths:
       - '3.11-bullseye.Dockerfile'
-      - './github/workflows/docker.yml'
+      - './github/workflows/docker_image.yml'
 env:
   MYPY_VERSION_MINOR: '1.11'
   MYPY_VERSION_PATCH: '1'
