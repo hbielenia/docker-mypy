@@ -6,14 +6,14 @@
 # You should have received a copy of the CC0 Public Domain Dedication along with this software.
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-name: docker_image
+name: docker
 on:
   push:
     branches:
       - 'master'
     paths:
       - '3.11-bullseye.Dockerfile'
-      - '.github/workflows/docker_image.yml'
+      - '.github/workflows/docker.yml'
   pull_request:
     types:
       - opened
@@ -22,7 +22,7 @@ on:
       - reopened
     paths:
       - '3.11-bullseye.Dockerfile'
-      - '.github/workflows/docker_image.yml'
+      - '.github/workflows/docker.yml'
 env:
   MYPY_VERSION_MINOR: '1.11'
   MYPY_VERSION_PATCH: '1'
