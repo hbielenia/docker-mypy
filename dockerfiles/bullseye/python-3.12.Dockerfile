@@ -8,7 +8,7 @@
 # You should have received a copy of the CC0 Public Domain Dedication along with this software.
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-FROM python:3.11-bullseye@sha256:476e5a29a42407305014dac3288bfbc92f26628843c32da9acc453a1e6bd03bf
+FROM python:3.12-bullseye@sha256:4da4396d9fa63e3f2014b56275ed261eba14b9c6ba51883f81341ee170e64103
 WORKDIR /usr/src/app
 RUN python -m pip install git+https://github.com/python/mypy.git@570b90a7a368f04c64f60af339d0ac1808c49c15
 CMD [ "mypy" ]
