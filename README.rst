@@ -15,12 +15,12 @@ Images
 The currently built images are:
 
 - ``1.11-py3.12``, also tagged ``1.11-py3.12-bullseye``, ``1.11-py3.12.7``,
-  ``1.11-py3.12.7-bullseye``, ``1.11.1-py3.12``, ``1.11.1-py3.12-bullseye``,
-  ``1.11.1-py3.12.7``, ``1.11.1-py3.12.7-bullseye``, ``1.11.1``, ``1.11``
+  ``1.11-py3.12.7-bullseye``, ``1.11.2-py3.12``, ``1.11.2-py3.12-bullseye``,
+  ``1.11.2-py3.12.7``, ``1.11.2-py3.12.7-bullseye``, ``1.11.2``, ``1.11``
   and ``latest``.
 - ``1.11-py3.11``, also tagged ``1.11-py3.11-bullseye``, ``1.11-py3.11.10``,
-  ``1.11-py3.11.10-bullseye``, ``1.11.1-py3.11``, ``1.11.1-py3.11-bullseye``,
-  ``1.11.1-py3.11.10`` and ``1.11.1-py3.11.10-bullseye``.
+  ``1.11-py3.11.10-bullseye``, ``1.11.2-py3.11``, ``1.11.2-py3.11-bullseye``,
+  ``1.11.2-py3.11.10`` and ``1.11.2-py3.11.10-bullseye``.
 
 Usage
 =====
