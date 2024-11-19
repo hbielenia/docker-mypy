@@ -26,8 +26,8 @@ on:
         type: number
         required: true
 env:
-  MYPY_VERSION_MINOR: '1.12'
-  MYPY_VERSION_PATCH: '1'
+  MYPY_VERSION_MINOR: '1.13'
+  MYPY_VERSION_PATCH: '0'
   PYTHON_VERSION: '${{ inputs.python_version_major }}.${{ inputs.python_version_minor }}'
   DEBIAN_VERSION: bullseye
   DOCKERHUB_REPO: ${{ vars.DOCKERHUB_USERNAME }}/mypy
