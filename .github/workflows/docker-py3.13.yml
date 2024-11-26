@@ -1,0 +1,35 @@
+# docker-mypy - Docker configuration for mypy
+# Written in 2024 by Hubert Bielenia <hbielenia@users.noreply.github.com>
+# To the extent possible under law, the author(s) have dedicated all copyright and related
+# and neighboring rights to this software to the public domain worldwide. This software
+# is distributed without any warranty.
+# You should have received a copy of the CC0 Public Domain Dedication along with this software.
+# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+name: docker-py3.13
+on:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'dockerfiles/bullseye/python-3.13.Dockerfile'
+      - '.github/workflows/docker-py3.13.yml'
+      - '.github/workflows/docker.yml'
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - ready_for_review
+      - reopened
+    paths:
+      - 'dockerfiles/bullseye/python-3.13.Dockerfile'
+      - '.github/workflows/docker-py3.13.yml'
+      - '.github/workflows/docker.yml'
+jobs:
+  image:
+    uses: ./.github/workflows/docker.yml
+    secrets: inherit
+    with:
+      python_version_minor: 13
+      python_version_patch: 0
+      push: ${{ github.event_name == 'push' }}
