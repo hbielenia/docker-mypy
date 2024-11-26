@@ -14,6 +14,9 @@ Images
 ======
 The currently built images are:
 
+- ``1.13-py3.13``, also tagged ``1.13-py3.13-bullseye``, ``1.13-py3.13.0``,
+  ``1.13-py3.13.0-bullseye``, ``1.13.0-py3.13``, ``1.13.0-py3.13-bullseye``,
+  ``1.13.0-py3.13.0`` and ``1.13.0-py3.13.0-bullseye``.
 - ``1.13-py3.12``, also tagged ``1.13-py3.12-bullseye``, ``1.13-py3.12.7``,
   ``1.13-py3.12.7-bullseye``, ``1.13.0-py3.12``, ``1.13.0-py3.12-bullseye``,
   ``1.13.0-py3.12.7``, ``1.13.0-py3.12.7-bullseye``, ``1.13.0``, ``1.13``
