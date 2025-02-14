@@ -10,5 +10,5 @@
 
 FROM python:3.13-bullseye@sha256:43be904e1e1ea9405510c9a6941382afd530721b36befabe063a224732a77873
 WORKDIR /usr/src/app
-RUN python -m pip install git+https://github.com/python/mypy.git@eb310343be0399ea6755fabc259755ce1f6711e8
+RUN python -m pip install git+https://github.com/python/mypy.git@9397454fb5aead107461b089e7cf190bf538d20a
 CMD [ "mypy" ]
