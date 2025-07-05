@@ -14,16 +14,16 @@ Images
 ======
 The currently built images are:
 
-- ``1.13-py3.13``, also tagged ``1.13-py3.13-bullseye``, ``1.13-py3.13.0``,
-  ``1.13-py3.13.0-bullseye``, ``1.13.0-py3.13``, ``1.13.0-py3.13-bullseye``,
-  ``1.13.0-py3.13.0`` and ``1.13.0-py3.13.0-bullseye``.
-- ``1.13-py3.12``, also tagged ``1.13-py3.12-bullseye``, ``1.13-py3.12.7``,
-  ``1.13-py3.12.7-bullseye``, ``1.13.0-py3.12``, ``1.13.0-py3.12-bullseye``,
-  ``1.13.0-py3.12.7``, ``1.13.0-py3.12.7-bullseye``, ``1.13.0``, ``1.13``
-  and ``latest``.
-- ``1.13-py3.11``, also tagged ``1.13-py3.11-bullseye``, ``1.13-py3.11.10``,
-  ``1.13-py3.11.10-bullseye``, ``1.13.0-py3.11``, ``1.13.0-py3.11-bullseye``,
-  ``1.13.0-py3.11.10`` and ``1.13.0-py3.11.10-bullseye``.
+- ``1.15-py3.13``, also tagged ``1.15-py3.13-bullseye``, ``1.15-py3.13.0``,
+  ``1.15-py3.13.0-bullseye``, ``1.15.0-py3.13``, ``1.15.0-py3.13-bullseye``,
+  ``1.15.0-py3.13.0`` and ``1.15.0-py3.13.0-bullseye``.
+- ``1.15-py3.12``, also tagged ``1.15-py3.12-bullseye``, ``1.15-py3.12.7``,
+  ``1.15-py3.12.7-bullseye``, ``1.15.0-py3.12``, ``1.15.0-py3.12-bullseye``,
+  ``1.15.0-py3.12.7``, ``1.15.0-py3.12.7-bullseye``, ``1.15.0``, ``1.15``
+  and `latest``.
+- ``1.15-py3.11``, also tagged ``1.15-py3.11-bullseye``, ``1.15-py3.11.10``,
+  ``1.15-py3.11.10-bullseye``, ``1.15.0-py3.11``, ``1.15.0-py3.11-bullseye``,
+  ``1.15.0-py3.11.10`` and ``1.15.0-py3.11.10-bullseye``.
 
 Usage
 =====
@@ -75,3 +75,4 @@ into public domain. See ``COPYING.txt`` for full license text.
 .. _GitHub Issues: https://github.com/hbielenia/docker-pypa-build/issues
 .. _Discussions: https://github.com/hbielenia/docker-pypa-build/discussions
 .. _CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+
