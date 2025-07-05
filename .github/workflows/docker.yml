@@ -1,5 +1,5 @@
 # docker-mypy - Docker configuration for PyPA's build
-# Written in 2024 by Hubert Bielenia <hbielenia@users.noreply.github.com>
+# Written in 2025 by Hubert Bielenia <hbielenia@users.noreply.github.com>
 # To the extent possible under law, the author(s) have dedicated all copyright and related
 # and neighboring rights to this software to the public domain worldwide. This software
 # is distributed without any warranty.
@@ -26,7 +26,7 @@ on:
         type: number
         required: true
 env:
-  MYPY_VERSION_MINOR: '1.15'
+  MYPY_VERSION_MINOR: '1.16'
   MYPY_VERSION_PATCH: '0'
   PYTHON_VERSION: '${{ inputs.python_version_major }}.${{ inputs.python_version_minor }}'
   DEBIAN_VERSION: bullseye
