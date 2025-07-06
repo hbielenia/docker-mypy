@@ -14,16 +14,16 @@ Images
 ======
 The currently built images are:
 
-- ``1.16-py3.13``, also tagged ``1.16-py3.13-bullseye``, ``1.16-py3.13.0``,
-  ``1.16-py3.13.0-bullseye``, ``1.16.0-py3.13``, ``1.16.0-py3.13-bullseye``,
-  ``1.16.0-py3.13.0`` and ``1.16.0-py3.13.0-bullseye``.
-- ``1.16-py3.12``, also tagged ``1.16-py3.12-bullseye``, ``1.16-py3.12.7``,
-  ``1.16-py3.12.7-bullseye``, ``1.16.0-py3.12``, ``1.16.0-py3.12-bullseye``,
-  ``1.16.0-py3.12.7``, ``1.16.0-py3.12.7-bullseye``, ``1.16.0``, ``1.16``
+- ``1.16-py3.13``, also tagged ``1.16-py3.13-bullseye``, ``1.16-py3.13.5``,
+  ``1.16-py3.13.5-bullseye``, ``1.16.1-py3.13``, ``1.16.1-py3.13-bullseye``,
+  ``1.16.1-py3.13.5`` and ``1.16.1-py3.13.5-bullseye``.
+- ``1.16-py3.12``, also tagged ``1.16-py3.12-bullseye``, ``1.16-py3.12.11``,
+  ``1.16-py3.12.11-bullseye``, ``1.16.1-py3.12``, ``1.16.1-py3.12-bullseye``,
+  ``1.16.1-py3.12.11``, ``1.16.1-py3.12.11-bullseye``, ``1.16.1``, ``1.16``
   and ``latest``.
-- ``1.16-py3.11``, also tagged ``1.16-py3.11-bullseye``, ``1.16-py3.11.10``,
-  ``1.16-py3.11.10-bullseye``, ``1.16.0-py3.11``, ``1.16.0-py3.11-bullseye``,
-  ``1.16.0-py3.11.10`` and ``1.16.0-py3.11.10-bullseye``.
+- ``1.16-py3.11``, also tagged ``1.16-py3.11-bullseye``, ``1.16-py3.11.13``,
+  ``1.16-py3.11.13-bullseye``, ``1.16.1-py3.11``, ``1.16.1-py3.11-bullseye``,
+  ``1.16.1-py3.11.13`` and ``1.16.1-py3.11.13-bullseye``.
 
 Usage
 =====
