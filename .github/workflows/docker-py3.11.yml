@@ -31,5 +31,5 @@ jobs:
     secrets: inherit
     with:
       python_version_minor: 11
-      python_version_patch: 10
+      python_version_patch: 13
       push: ${{ github.event_name == 'push' }}
