@@ -1,14 +1,14 @@
 # syntax=docker/dockerfile:1
 
 # docker-mypy - Docker configuration for mypy
-# Written in 2024 by Hubert Bielenia <hbielenia@users.noreply.github.com>
+# Written in 2025 by Hubert Bielenia <hbielenia@users.noreply.github.com>
 # To the extent possible under law, the author(s) have dedicated all copyright and related
 # and neighboring rights to this software to the public domain worldwide. This software
 # is distributed without any warranty.
 # You should have received a copy of the CC0 Public Domain Dedication along with this software.
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-FROM python:3.12-bullseye@sha256:4da4396d9fa63e3f2014b56275ed261eba14b9c6ba51883f81341ee170e64103
+FROM python:3.12-bullseye@sha256:f6d639b794b394cbeb7a9327d5af9976f0e8d61353bcf41916984775c9bbed1a
 WORKDIR /usr/src/app
 RUN python -m pip install git+https://github.com/python/mypy.git@9397454fb5aead107461b089e7cf190bf538d20a
 CMD [ "mypy" ]
